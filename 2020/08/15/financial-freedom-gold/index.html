@@ -190,31 +190,9 @@
         <script src="https://code.highcharts.com.cn/highcharts/8.1.2/modules/exporting.js"></script>
         <script src="https://code.highcharts.com.cn/highcharts/8.1.2/modules/annotations.js"></script>
         <script src="https://code.highcharts.com.cn/highcharts/8.1.2/modules/oldie.js"></script>
-        <div id="highchartsuuid01542258697993358" width="85%" height="400"></div>
+        <div id="highchartsuuid01640427907367593" width="85%" height="400"></div>
         <script>
-            var op = Object.assign({
-    chart: {
-        type: 'bar' 
-    },
-    title: {
-        text: '我的第一个图表'
-    },
-    xAxis: {
-        categories: ['苹果', '香蕉', '橙子'] 
-    },
-    yAxis: {
-        title: {
-            text: '吃水果个数' 
-        }
-    },
-    series: [{                
-        name: '小明',  
-        data: [1, 0, 4] 
-    }, {
-        name: '小红',
-        data: [5, 7, 3]
-    }]
-},{
+            var op = {
     chart: {
         zoomType: 'x'
     },
@@ -436,7 +414,7 @@
         }]
         return series; 
     }
-})
+}
             if(op.url){
                 $.ajax({
                     url: op.url,
@@ -448,11 +426,11 @@
                         } else {
                             op.series = res;
                         }
-                        var chart = Highcharts.chart(highchartsuuid01542258697993358,op);
+                        var chart = Highcharts.chart(highchartsuuid01640427907367593,op);
                     }
                 })
             }else{
-                var chart = Highcharts.chart(highchartsuuid01542258697993358,op);
+                var chart = Highcharts.chart(highchartsuuid01640427907367593,op);
             }
         </script>
     

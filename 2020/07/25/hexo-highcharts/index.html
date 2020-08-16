@@ -90,7 +90,7 @@
         <li><a class="icon" href="/2020/07/27/svg-dot-map/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
         
         
-        <li><a class="icon" href="/2019/03/07/shanghai-bye/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        <li><a class="icon" href="/2019/03/11/financial-freedom-stock/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
         
         <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
         <li><a class="icon" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
@@ -199,31 +199,9 @@ The official explanation is:
         <script src="https://code.highcharts.com.cn/highcharts/8.1.2/modules/exporting.js"></script>
         <script src="https://code.highcharts.com.cn/highcharts/8.1.2/modules/annotations.js"></script>
         <script src="https://code.highcharts.com.cn/highcharts/8.1.2/modules/oldie.js"></script>
-        <div id="highchartsuuid01130126261089056" width="85%" height="400"></div>
+        <div id="highchartsuuid01640427945058798" width="85%" height="400"></div>
         <script>
-            var op = Object.assign({
-    chart: {
-        type: 'bar' 
-    },
-    title: {
-        text: '我的第一个图表'
-    },
-    xAxis: {
-        categories: ['苹果', '香蕉', '橙子'] 
-    },
-    yAxis: {
-        title: {
-            text: '吃水果个数' 
-        }
-    },
-    series: [{                
-        name: '小明',  
-        data: [1, 0, 4] 
-    }, {
-        name: '小红',
-        data: [5, 7, 3]
-    }]
-},{
+            var op = {
     chart: {
         plotBackgroundColor: null,
         plotBorderWidth: null,
@@ -276,7 +254,7 @@ The official explanation is:
             y: 7.05
         }]
     }]
-})
+}
             if(op.url){
                 $.ajax({
                     url: op.url,
@@ -288,11 +266,11 @@ The official explanation is:
                         } else {
                             op.series = res;
                         }
-                        var chart = Highcharts.chart(highchartsuuid01130126261089056,op);
+                        var chart = Highcharts.chart(highchartsuuid01640427945058798,op);
                     }
                 })
             }else{
-                var chart = Highcharts.chart(highchartsuuid01130126261089056,op);
+                var chart = Highcharts.chart(highchartsuuid01640427945058798,op);
             }
         </script>
     
@@ -304,31 +282,9 @@ The official explanation is:
         <script src="https://code.highcharts.com.cn/highcharts/8.1.2/modules/exporting.js"></script>
         <script src="https://code.highcharts.com.cn/highcharts/8.1.2/modules/annotations.js"></script>
         <script src="https://code.highcharts.com.cn/highcharts/8.1.2/modules/oldie.js"></script>
-        <div id="highchartsuuid01130126462527939" width="85%" height="400"></div>
+        <div id="highchartsuuid01640428106260708" width="85%" height="400"></div>
         <script>
-            var op = Object.assign({
-    chart: {
-        type: 'bar' 
-    },
-    title: {
-        text: '我的第一个图表'
-    },
-    xAxis: {
-        categories: ['苹果', '香蕉', '橙子'] 
-    },
-    yAxis: {
-        title: {
-            text: '吃水果个数' 
-        }
-    },
-    series: [{                
-        name: '小明',  
-        data: [1, 0, 4] 
-    }, {
-        name: '小红',
-        data: [5, 7, 3]
-    }]
-},{
+            var op = {
     url: "/2020/07/25/hexo-highcharts/elevation.json",
     chart: {
         type: 'area',
@@ -368,7 +324,7 @@ The official explanation is:
         enabled: false
     },
     series: []
-})
+}
             if(op.url){
                 $.ajax({
                     url: op.url,
@@ -380,11 +336,11 @@ The official explanation is:
                         } else {
                             op.series = res;
                         }
-                        var chart = Highcharts.chart(highchartsuuid01130126462527939,op);
+                        var chart = Highcharts.chart(highchartsuuid01640428106260708,op);
                     }
                 })
             }else{
-                var chart = Highcharts.chart(highchartsuuid01130126462527939,op);
+                var chart = Highcharts.chart(highchartsuuid01640428106260708,op);
             }
         </script>
     
