@@ -33,5 +33,10 @@
         "price": 18.2,
         "count": 100,
         "type": -1
+    },
+    {
+        "price": 17.9,
+        "count": 100,
+        "type": 1
     }
 ]

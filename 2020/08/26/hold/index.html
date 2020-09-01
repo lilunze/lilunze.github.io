@@ -14,7 +14,7 @@
 <meta property="og:description" content="康德莱 603987                                                                   var op &#x3D; {     chart: {         zoomType: &#39;x&#39;     },     title: {         text: &#39;康德莱持仓走势&#39;     },     tooltip: {         s">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-08-26T07:24:13.000Z">
-<meta property="article:modified_time" content="2020-08-28T15:51:39.444Z">
+<meta property="article:modified_time" content="2020-09-01T14:17:20.564Z">
 <meta property="article:author" content="卡西莫多cc">
 <meta property="article:tag" content="FinancialFreedom">
 <meta name="twitter:card" content="summary">
@@ -169,7 +169,7 @@
         <script src="https://code.highcharts.com.cn/highcharts/8.1.2/modules/exporting.js"></script>
         <script src="https://code.highcharts.com.cn/highcharts/8.1.2/modules/annotations.js"></script>
         <script src="https://code.highcharts.com.cn/highcharts/8.1.2/modules/oldie.js"></script>
-        <div id="highchartsuuid6151741757865036" width="85%" height="400"></div>
+        <div id="highchartsuuid222201581980570" width="85%" height="400"></div>
         <script>
             var op = {
     chart: {
@@ -194,10 +194,10 @@
             plotLines:[{
                 color: 'red',
                 dashStyle: 'dash',
-                value: 18.18,
+                value: 17.93,
                 width: 1,
                 label: {
-					text: "18.18",
+					text: "17.93",
 					align: 'right',
 					x: -10
 				}
@@ -256,9 +256,9 @@
                 _count -= v.count;
             }
             arr.push(Number((market_value / _count).toFixed(2)));
-            profit.push(Number(18.18 * _count - market_value));
+            profit.push(Number(17.93 * _count - market_value));
         })
-        console.log((Math.min(...buy) -18.18) / 18.18 * 100)
+        console.log((Math.min(...buy) - 17.93) / 17.93 * 100)
         
         var series = [{
             type: "line",
@@ -285,11 +285,11 @@
                         } else {
                             op.series = res;
                         }
-                        var chart = Highcharts.chart(highchartsuuid6151741757865036,op);
+                        var chart = Highcharts.chart(highchartsuuid222201581980570,op);
                     }
                 })
             }else{
-                var chart = Highcharts.chart(highchartsuuid6151741757865036,op);
+                var chart = Highcharts.chart(highchartsuuid222201581980570,op);
             }
         </script>
     
