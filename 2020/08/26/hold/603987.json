@@ -38,5 +38,25 @@
         "price": 17.9,
         "count": 100,
         "type": 1
+    },
+    {
+        "price": 18,
+        "count": 100,
+        "type": 1
+    },
+    {
+        "price": 18.3,
+        "count": 100,
+        "type": -1
+    },
+    {
+        "price": 17.9,
+        "count": 100,
+        "type": 1
+    },
+    {
+        "price": 17.77,
+        "count": 100,
+        "type": 1
     }
 ]
